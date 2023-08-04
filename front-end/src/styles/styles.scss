@@ -1,0 +1,23 @@
+@import "./01-config/variables";
+@import "./01-config/mixins";
+@import "./01-config/functions";
+@import "./01-config/breakpoints.scss";
+
+@import "./02-base/reset";
+@import "./02-base/typography";
+@import "./02-base/box-sizing";
+
+@import "./03-objects/button";
+@import "./03-objects/navigation";
+
+@import "./04-globals/grid";
+@import "./04-globals/elements";
+@import "./04-globals/header";
+@import "./04-globals/footer";
+@import "./04-globals/layout";
+
+@import "./05-components/hero";
+// @import './05-components/person-component';
+
+@import "./06-utilities/accessibility";
+@import "./06-utilities/svg";
