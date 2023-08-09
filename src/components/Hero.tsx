@@ -13,33 +13,47 @@ const clientData = [
 	{
 		image: WalmartLogo,
 		imageAlt: "Walmart Logo",
+		id: 1,
 	},
 	{
 		image: JPMorganLogo,
 		imageAlt: "JPMorgan Logo",
+		id: 2,
 	},
 	{
 		image: VisaLogo,
 		imageAlt: "Visa Logo",
+		id: 3,
 	},
 	{
 		image: TinderLogo,
 		imageAlt: "Tinder Logo",
+		id: 4,
 	},
 	{
 		image: SamsungLogo,
 		imageAlt: "Samsung Logo",
+		id: 5,
 	},
 
 	{
 		image: VerizonLogo,
 		imageAlt: "Verizon Logo",
+		id: 6,
 	},
 ]
 
 const clientLogos = clientData.map(
-	({image, imageAlt}: {image: StaticImageData; imageAlt: string}) => {
-		return <Image src={image} alt={imageAlt} />
+	({
+		image,
+		imageAlt,
+		id,
+	}: {
+		image: StaticImageData
+		imageAlt: string
+		id: number
+	}) => {
+		return <Image src={image} alt={imageAlt} key={id} />
 	}
 )
 
