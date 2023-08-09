@@ -1,0 +1,14 @@
+.footer {
+	&__content-wrapper {
+		width: 100%;
+		max-width: $max-width;
+		display: flex;
+		justify-content: space-between;
+		padding: $footer-spacing;
+	}
+	&__social-links {
+		& a:not(:last-child) {
+			margin-right: 0.5rem;
+		}
+	}
+}

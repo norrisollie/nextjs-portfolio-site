@@ -28,10 +28,10 @@ const articleComponents = articleData.map((article) => {
 
 const Articles = () => {
 	return (
-		<section>
-			<div className="section-wrapper">
-				<div className="content-wrapper">
-					<div>{articleComponents}</div>
+		<section className="articles">
+			<div className="section-wrapper black">
+				<div className="articles__content-wrapper content-wrapper">
+					{articleComponents}
 				</div>
 			</div>
 		</section>

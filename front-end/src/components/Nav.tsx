@@ -1,4 +1,5 @@
-import React, {Key} from "react"
+import React, {Key, useEffect} from "react"
+import Logo from "./Logo"
 
 const pagesData = [
 	{
@@ -55,16 +56,22 @@ const links = pagesData.map(
 	}
 )
 
-const Nav = () => {
+const Nav = ({openMenu}: {openMenu: Function}) => {
 	return (
-		<section>
-			<div className="section-wrapper">
-				<div className="content-wrapper">
-					<a href="">Johnathon Spectre</a>
-					<ul>{links}</ul>
+		<nav className="nav">
+			<div className="section-wrapper black">
+				<div className="nav__content-wrapper">
+					<Logo />
+					<button
+						className="nav_mobile"
+						onClick={() => {
+							openMenu()
+						}}>
+						Menu
+					</button>
 				</div>
 			</div>
-		</section>
+		</nav>
 	)
 }
 

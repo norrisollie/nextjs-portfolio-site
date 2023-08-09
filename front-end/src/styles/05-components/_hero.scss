@@ -1,0 +1,19 @@
+.hero {
+	&__content-wrapper {
+		flex-direction: column;
+	}
+	&__clients-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+		gap: 1rem;
+		width: 100%;
+		justify-items: center;
+		& img {
+			width: 50%;
+		}
+	}
+	&__text-wrapper {
+		margin-bottom: 1.5rem;
+	}
+}

@@ -1,0 +1,15 @@
+.nav {
+	&__content-wrapper {
+		width: 100%;
+		max-width: $max-width;
+		padding: 3rem 1.5rem;
+		display: flex;
+		justify-content: space-between;
+		padding: $nav-spacing;
+		&_mobile {
+			width: 25px;
+			height: 25px;
+			background-color: #fff;
+		}
+	}
+}

@@ -11,28 +11,29 @@ import WalmartLogo from "../assets/Walmart.svg"
 
 const clientData = [
 	{
+		image: WalmartLogo,
+		imageAlt: "Walmart Logo",
+	},
+	{
 		image: JPMorganLogo,
 		imageAlt: "JPMorgan Logo",
-	},
-	{
-		image: SamsungLogo,
-		imageAlt: "Samsung Logo",
-	},
-	{
-		image: TinderLogo,
-		imageAlt: "Tinder Logo",
-	},
-	{
-		image: VerizonLogo,
-		imageAlt: "Verizon Logo",
 	},
 	{
 		image: VisaLogo,
 		imageAlt: "Visa Logo",
 	},
 	{
-		image: WalmartLogo,
-		imageAlt: "Walmart Logo",
+		image: TinderLogo,
+		imageAlt: "Tinder Logo",
+	},
+	{
+		image: SamsungLogo,
+		imageAlt: "Samsung Logo",
+	},
+
+	{
+		image: VerizonLogo,
+		imageAlt: "Verizon Logo",
 	},
 ]
 
@@ -45,15 +46,17 @@ const clientLogos = clientData.map(
 const Hero = () => {
 	return (
 		<section>
-			<div className="section-wrapper">
-				<div className="content-wrapper">
-					<h1>Helping companies build better, scalable software.</h1>
-					<h2>
-						Award-winning web developer and author, with over 15+ years of
-						working experience with Fortune 500 companies like Apple, Google,
-						Facebook, and more.
-					</h2>
-					<div className="hero__client-image-list">{clientLogos}</div>
+			<div className="section-wrapper black">
+				<div className="content-wrapper hero__content-wrapper">
+					<div className="hero__text-wrapper">
+						<h1>Helping companies build better, scalable software.</h1>
+						<p>
+							Award-winning web developer and author, with over 15+ years of
+							working experience with Fortune 500 companies like Apple, Google,
+							Facebook, and more.
+						</p>
+					</div>
+					<div className="hero__clients-wrapper">{clientLogos}</div>
 				</div>
 			</div>
 		</section>

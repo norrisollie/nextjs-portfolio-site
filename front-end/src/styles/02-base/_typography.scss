@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--playfair_display-font);
+	font-weight: 400;
+}
+
+h1 {
+	@include h1-as-style;
+}
+
+h2 {
+	@include h2-as-style;
+}
+
+h3 {
+	@include h2-as-style;
+}
+
+p {
+	font-family: $body_font;
+	margin-bottom: 1rem;
+}

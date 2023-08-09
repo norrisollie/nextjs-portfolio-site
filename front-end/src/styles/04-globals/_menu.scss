@@ -1,0 +1,38 @@
+.menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #25252b;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		padding: $nav-spacing;
+
+		& button {
+			align-self: flex-end;
+		}
+	}
+	&__links-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		& a {
+			font-family: $body-font;
+			margin-bottom: 2rem;
+			font-weight: 700;
+			font-size: 2rem;
+			color: #fff;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+			&:last-child {
+				font-family: $display-font;
+				font-weight: 400;
+				color: #000;
+			}
+		}
+	}
+}

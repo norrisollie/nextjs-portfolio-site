@@ -1,12 +1,30 @@
 .section-wrapper {
 	width: 100%;
-	background-color: purple;
 	display: flex;
 	justify-content: center;
+	color: #a3a3a3;
+	h1,
+	h2,
+	h3 {
+		color: #fff;
+	}
+	&.black {
+		background-color: #0c0c0e;
+	}
+	&.grey {
+		background-color: #292a31;
+	}
 }
 
 .content-wrapper {
 	width: 100%;
-	max-width: 1280px;
-	background-color: red;
+	max-width: $max-width;
+	padding: $section-spacing;
+	display: flex;
+	align-items: flex-start;
+}
+
+.noscroll {
+	overflow: hidden;
+	height: 100vh;
 }

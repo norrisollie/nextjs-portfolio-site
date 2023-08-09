@@ -3,8 +3,8 @@ import React from "react"
 const Bio = () => {
 	return (
 		<section>
-			<div className="section-wrapper">
-				<div className="content-wrapper">
+			<div className="section-wrapper grey">
+				<div className="bio__content-wrapper content-wrapper">
 					<h2>A co-founder at one of the world's largest communities.</h2>
 					<div>
 						<p>

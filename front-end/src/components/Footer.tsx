@@ -6,28 +6,32 @@ import Github from "../assets/Github.svg"
 import LinkedIn from "../assets/LinkedIn.svg"
 import Twitter from "../assets/Twitter.svg"
 import Link from "next/link"
+import Logo from "./Logo"
 
 const socialData = [
 	{
-		linkHref: "www.github.com",
+		linkHref: "https://www.github.com",
 		linkImage: Github,
 		linkAlt: "Github Logo",
+		id: 1,
 	},
 	{
-		linkHref: "www.linkedIn.com",
+		linkHref: "https://www.linkedin.com",
 		linkImage: LinkedIn,
 		linkAlt: "LinkedIn Logo",
+		id: 2,
 	},
 	{
-		linkHref: "www.twitter.com",
+		linkHref: "https://www.twitter.com",
 		linkImage: Twitter,
 		linkAlt: "Twitter Logo",
+		id: 3,
 	},
 ]
 
-const socialLinks = socialData.map(({linkHref, linkImage, linkAlt}) => {
+const socialLinks = socialData.map(({linkHref, linkImage, linkAlt, id}) => {
 	return (
-		<Link href={linkHref}>
+		<Link href={linkHref} key={id}>
 			<Image src={linkImage} alt={linkAlt} />
 		</Link>
 	)
@@ -36,12 +40,10 @@ const socialLinks = socialData.map(({linkHref, linkImage, linkAlt}) => {
 const Footer = () => {
 	return (
 		<section>
-			<div className="section-wrapper">
-				<div className="content-wrapper">
-					<div>
-						<a href="/">Johnathon Spectre</a>
-					</div>
-					<div>{socialLinks}</div>
+			<div className="section-wrapper grey">
+				<div className="footer__content-wrapper">
+					<Logo />
+					<div className="footer__social-links">{socialLinks}</div>
 				</div>
 			</div>
 		</section>

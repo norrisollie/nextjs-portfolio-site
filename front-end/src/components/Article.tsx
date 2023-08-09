@@ -18,9 +18,9 @@ const Article = ({
 	imageAlt: string
 }) => {
 	return (
-		<article>
+		<article className="article">
 			<Image src={image} alt={imageAlt} />
-			<h3>{title}</h3>
+			<h3>{title} →</h3>
 			<p>{description}</p>
 		</article>
 	)
