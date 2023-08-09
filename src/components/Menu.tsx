@@ -72,7 +72,7 @@ const Menu = ({
 			{transitions((style, item, key) => {
 				return (
 					item && (
-						<a.div className="menu" style={style} key={key}>
+						<a.div className="menu" style={style} key={key.toString()}>
 							<FocusTrap
 								focusTrapOptions={{
 									escapeDeactivates: false,

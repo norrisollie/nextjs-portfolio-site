@@ -2,10 +2,6 @@ import React from "react"
 
 import Image, {StaticImageData} from "next/image"
 
-// remove me
-import Spense from "../assets/Spense.png"
-import YelpCamp from "../assets/YelpCamp.png"
-
 const Article = ({
 	title,
 	description,
