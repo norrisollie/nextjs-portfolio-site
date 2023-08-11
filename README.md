@@ -18,4 +18,7 @@ result.
 
 ## About
 
-This is a [codewell.cc](https://codewell.cc) task to improve my front end skills
+This is a [codewell.cc](https://codewell.cc) task to improve my front end skills.
+
+- Uses Next 13
+- React Spring
