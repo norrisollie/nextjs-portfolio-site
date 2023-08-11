@@ -67,6 +67,7 @@ const Menu = ({
 		enter: {transform: "translate3d(0%,0,0)"},
 		leave: {transform: "translate3d(100%,0,0)"},
 	})
+
 	return (
 		<div>
 			{transitions((style, item, key) => {
@@ -75,7 +76,7 @@ const Menu = ({
 						<a.div className="menu" style={style} key={key.toString()}>
 							<FocusTrap
 								focusTrapOptions={{
-									escapeDeactivates: false,
+									escapeDeactivates: () => closeMenu(),
 								}}>
 								<div className="menu__wrapper">
 									<button

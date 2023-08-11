@@ -1,7 +1,13 @@
 $display_font: var(--playfair_display-font);
 $body_font: var(--inter-font);
 
-$max-width: 1280px;
-$section-spacing: 1.75rem;
+$max-width: 1204px;
+$section-spacing: 3rem 1.75rem;
 $nav-spacing: 0.75rem 1.75rem;
 $footer-spacing: 0.75rem 1.75rem;
+
+$section-spacing-md: 3rem 2.5rem;
+$nav-spacing-md: 0.75rem 2.5rem;
+$footer-spacing-md: 0.75rem 2.5rem;
+
+$section-spacing-lg: 6rem 2.5rem;

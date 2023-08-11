@@ -1,11 +1,19 @@
 .article {
 	margin-bottom: 2rem;
+	width: 100%;
+	@include breakpoint(lg) {
+		width: 50%;
+	}
+	&:not(:last-child) {
+		margin-right: 2rem;
+	}
 
 	&:last-child {
 		margin-bottom: 0;
 	}
 	& img {
 		width: 100%;
+		height: auto;
 		margin-bottom: 1rem;
 	}
 

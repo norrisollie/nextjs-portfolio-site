@@ -24,9 +24,11 @@ const Bio = () => {
 						</p>
 						<p>A quote I live by perfectly illustrates what I mean.</p>
 						<p>
-							You&apos;ve already gone through the hardest parts being a
-							developer, it&apos;s time to elevate your skills and become a
-							leader in something you&apos;re passionate about.
+							&quot;How big would you dream, if you <b>knew</b> you
+							wouldn&apos;t fail?&quot; You&apos;ve already gone through the
+							hardest parts being a developer, it&apos;s time to elevate your
+							skills and become a leader in something you&apos;re passionate
+							about.
 						</p>
 						<p>
 							I&apos;m happy to chat over coffee some time about how I can help

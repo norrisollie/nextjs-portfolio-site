@@ -22,6 +22,12 @@
 	padding: $section-spacing;
 	display: flex;
 	align-items: flex-start;
+	@include breakpoint(md) {
+		padding: $section-spacing-md;
+	}
+	@include breakpoint(lg) {
+		padding: $section-spacing-lg;
+	}
 }
 
 .noscroll {

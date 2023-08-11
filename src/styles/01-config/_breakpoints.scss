@@ -1,12 +1,12 @@
 // breakpoints
 $breakpoints: (
-  xs: 32rem,
-  sm: 48rem,
-  md: 64rem,
-  lg: 80rem,
-  xl: 90rem
+	sm: 26.75rem,
+	md: 48rem,
+	lg: 71.25rem,
 ) !default;
 
 @mixin breakpoint($breakpoint) {
-  @media (min-width: map-get($map: $breakpoints, $key: $breakpoint)) { @content; }
+	@media (min-width: map-get($map: $breakpoints, $key: $breakpoint)) {
+		@content;
+	}
 }

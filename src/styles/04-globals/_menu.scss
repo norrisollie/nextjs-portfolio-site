@@ -1,8 +1,9 @@
 .menu {
 	position: fixed;
 	top: 0;
-	left: 0;
+	right: 0;
 	width: 100vw;
+	max-width: 428px;
 	height: 100vh;
 	background-color: #25252b;
 	&__wrapper {

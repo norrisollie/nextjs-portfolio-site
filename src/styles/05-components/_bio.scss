@@ -1,5 +1,11 @@
 .bio {
 	&__content-wrapper {
 		flex-direction: column;
+
+		@include breakpoint(lg) {
+			display: block;
+			column-count: 2;
+			column-gap: 6rem;
+		}
 	}
 }

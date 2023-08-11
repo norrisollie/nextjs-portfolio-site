@@ -1,9 +1,16 @@
 @mixin h1-as-style {
-	font-size: 2.25rem;
+	font-size: 2.5rem;
 	margin-bottom: 1rem;
+	@include breakpoint(md) {
+		font-size: 3.5rem;
+	}
 }
 
 @mixin h2-as-style {
-	font-size: 1.75rem;
+	font-size: 2rem;
 	margin-bottom: 1rem;
+	@include breakpoint(md) {
+		font-size: 2.5rem;
+		margin-bottom: 1.5rem;
+	}
 }

@@ -1,5 +1,8 @@
 .articles {
 	&__content-wrapper {
 		flex-direction: column;
+		@include breakpoint(lg) {
+			flex-direction: row;
+		}
 	}
 }

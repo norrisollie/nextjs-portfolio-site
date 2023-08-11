@@ -23,4 +23,8 @@ h3 {
 p {
 	font-family: $body_font;
 	margin-bottom: 1rem;
+	line-height: 1.5;
+	@include breakpoint(md) {
+		font-size: 1.2rem;
+	}
 }
