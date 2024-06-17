@@ -3,7 +3,7 @@
 A simple, single page portfolio website. A coding challenge from [codewell.cc](https://codewell.cc).
 
 # Built Using
-- Built in React and Next JS.
+- Built in React and Next JS with Typescript
 - Styled using SASS.
 - Hosted on Github Pages and deployed using Github Actions.
 
