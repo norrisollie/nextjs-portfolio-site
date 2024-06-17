@@ -1,24 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with
-[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# About
+A simple, single page portfolio website. A coding challenge from [codewell.cc](https://codewell.cc).
 
-First, run the development server:
+# Built Using
+- Built in React and Next JS with Typescript
+- Styled using SASS, 
+- React-Spring for animating the menu
+- Hosted on Github Pages and deployed using Github Actions
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the
-result.
-
-## About
-
-This is a [codewell.cc](https://codewell.cc) task to improve my front end skills.
-
-- Uses Next 13
-- React Spring
+To take a look at the website, click [here](https://norrisollie.github.io/nextjs-portfolio-site/) 
