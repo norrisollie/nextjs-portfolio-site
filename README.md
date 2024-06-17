@@ -9,4 +9,4 @@ A simple, single page portfolio website. A coding challenge from [codewell.cc](h
 
 ---
 
-To take a look at the website, click [here](https://norrisollie.github.io/web-dev-portfolio-site/) 
+To take a look at the website, click [here](https://norrisollie.github.io/nextjs-portfolio-site/) 
