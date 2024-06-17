@@ -4,8 +4,9 @@ A simple, single page portfolio website. A coding challenge from [codewell.cc](h
 
 # Built Using
 - Built in React and Next JS with Typescript
-- Styled using SASS.
-- Hosted on Github Pages and deployed using Github Actions.
+- Styled using SASS, 
+- React-Spring for animating the menu
+- Hosted on Github Pages and deployed using Github Actions
 
 ---
 
